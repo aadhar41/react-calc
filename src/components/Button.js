@@ -7,9 +7,11 @@ class Button extends Component {
 
     render() {
         return (
-            <button className="calc-button" onClick={this.handleClick}>
-                {this.props.value}
-            </button>
+            <div className={`calc-button ${this.props.cols ? `cols-${this.props.cols}` : ''}`}>
+                <button className="calc-button" onClick={() => this.props.action(this.props.symbol)} cols={this.props.cols} style={this.props.style}>
+                    {this.props.symbol}
+                </button>
+            </div>
         );
     }
 }
