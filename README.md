@@ -2,6 +2,8 @@
 
 This is a simple calculator application built with React, bootstrapped using [Create React App](https://github.com/facebook/create-react-app).
 
+![Calculator Preview](https://github.com/aadhar41/react-calc/raw/master/public/calculator.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
